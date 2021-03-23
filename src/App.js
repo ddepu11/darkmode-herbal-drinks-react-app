@@ -1,6 +1,7 @@
 import "./App.css";
 import { FaGooglePlay } from "react-icons/fa";
-import { GiFruitBowl, GiScooter } from "react-icons/gi";
+import { GiFruitBowl, GiScooter, GiHealthNormal } from "react-icons/gi";
+import vegetable from "./Images/vegetable.png";
 
 function App() {
   return (
@@ -28,21 +29,32 @@ function App() {
           </li>
         </ul>
       </nav>
-      <main>
+      <main className="hero">
         <h1>Delivery natural herbal drinks</h1>
         <p>Perfect snack for hot summer East right and tasty</p>
-        <div className="buttons">
+        <div className="buttons flex">
           <button>Request a call</button>
-          <div className="right">
-            <button></button>
+          <div className="right flex">
+            <button className="play ">
+              <FaGooglePlay />
+            </button>
             <span>Smoothies Recipe Video</span>
           </div>
         </div>
       </main>
-      <footer>
-        <button>There are over 500 recipies in our menu</button>
-        <button>There are over 500 recipies in our menu</button>
-        <button>There are over 500 recipies in our menu</button>
+      <footer className="footer flex">
+        <button className="flex ">
+          <GiFruitBowl className="icon" />
+          <span className="c">There are over 500 recipies in our menu</span>
+        </button>
+        <button className="flex ">
+          <GiHealthNormal className="icon" />
+          <span className="c">There are over 500 recipies in our menu</span>
+        </button>
+        <button className="flex ">
+          <GiScooter className="icon" />
+          <span className="c">There are over 500 recipies in our menu</span>
+        </button>
       </footer>
     </div>
   );
