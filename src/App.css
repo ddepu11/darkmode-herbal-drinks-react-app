@@ -27,11 +27,17 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
 body {
   min-height: 100vh;
-  background: linear-gradient(to right, #000000, #434343);
   color: white;
+  background: url("./Images/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: black;
 }
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -40,7 +46,7 @@ body {
 a {
   display: inline-block;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 ul {
   list-style-type: none;
@@ -58,4 +64,24 @@ input {
 button:focus,
 input:focus {
   outline: 0;
+}
+.navbar {
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+}
+.logo > span:first-child {
+  color: #a7005c;
+}
+.logo > span:nth-child(2) {
+  color: #f861b4;
+}
+.ul {
+  justify-content: space-between;
+}
+.ul li {
+  padding: 0 15px 0;
 }
