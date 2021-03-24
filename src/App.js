@@ -17,16 +17,16 @@ function App() {
   const [theme, setTheme] = useState(themeVal);
 
   const handleChange = (e) => {
-    const classes = document.documentElement.classList;
+    const htmlTagClasses = document.documentElement.classList;
 
-    if (classes.contains("light-theme")) {
-      document.documentElement.classList.remove("light-theme");
-      document.documentElement.classList.add("dark-theme");
+    if (htmlTagClasses.contains("light-theme")) {
+      htmlTagClasses.remove("light-theme");
+      htmlTagClasses.add("dark-theme");
       localStorage.setItem("theme", "dark-theme");
       setTheme("dark-theme");
     } else {
-      document.documentElement.classList.remove("dark-theme");
-      document.documentElement.classList.add("light-theme");
+      htmlTagClasses.remove("dark-theme");
+      htmlTagClasses.add("light-theme");
       localStorage.setItem("theme", "light-theme");
       setTheme("light-theme");
     }
