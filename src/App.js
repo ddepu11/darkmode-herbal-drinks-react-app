@@ -17,18 +17,12 @@ function App() {
   const [theme, setTheme] = useState(themeVal);
 
   const handleChange = (e) => {
-    const htmlTagClasses = document.documentElement.classList;
-
-    if (htmlTagClasses.contains("light-theme")) {
-      htmlTagClasses.remove("light-theme");
-      htmlTagClasses.add("dark-theme");
-      localStorage.setItem("theme", "dark-theme");
+    if (theme === "light-theme") {
       setTheme("dark-theme");
+      console.log("dark");
     } else {
-      htmlTagClasses.remove("dark-theme");
-      htmlTagClasses.add("light-theme");
-      localStorage.setItem("theme", "light-theme");
       setTheme("light-theme");
+      console.log("light");
     }
   };
 
@@ -39,8 +33,9 @@ function App() {
 
   // Checkbox functionality
   useEffect(() => {
-    document.documentElement.classList.add(theme.trim());
-  });
+    document.documentElement.className = theme.trim();
+    localStorage.setItem("theme", theme);
+  }, [theme]);
 
   return (
     <div className="container">
