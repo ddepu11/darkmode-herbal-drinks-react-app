@@ -5,6 +5,7 @@ import { AiOutlineClose, AiOutlineBars } from "react-icons/ai";
 import { useRef, useEffect, useState } from "react";
 
 let themeVal = localStorage.getItem("theme");
+
 if (themeVal) {
   themeVal = localStorage.getItem("theme");
 } else {
