@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/darkmode-herbal-drinks-react-app/static/css/main.f723611d.chunk.css",
-    "main.js": "/darkmode-herbal-drinks-react-app/static/js/main.c52cad16.chunk.js",
-    "main.js.map": "/darkmode-herbal-drinks-react-app/static/js/main.c52cad16.chunk.js.map",
+    "main.js": "/darkmode-herbal-drinks-react-app/static/js/main.782e54fc.chunk.js",
+    "main.js.map": "/darkmode-herbal-drinks-react-app/static/js/main.782e54fc.chunk.js.map",
     "runtime-main.js": "/darkmode-herbal-drinks-react-app/static/js/runtime-main.31f43f6d.js",
     "runtime-main.js.map": "/darkmode-herbal-drinks-react-app/static/js/runtime-main.31f43f6d.js.map",
     "static/js/2.d6548b10.chunk.js": "/darkmode-herbal-drinks-react-app/static/js/2.d6548b10.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.31f43f6d.js",
     "static/js/2.d6548b10.chunk.js",
     "static/css/main.f723611d.chunk.css",
-    "static/js/main.c52cad16.chunk.js"
+    "static/js/main.782e54fc.chunk.js"
   ]
 }
