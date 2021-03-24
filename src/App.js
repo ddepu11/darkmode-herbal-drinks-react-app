@@ -1,9 +1,10 @@
 import "./App.css";
 import { FaGooglePlay } from "react-icons/fa";
 import { GiFruitBowl, GiScooter, GiHealthNormal } from "react-icons/gi";
-import vegetable from "./Images/vegetable.png";
 
 function App() {
+  const handleChange = (e) => {};
+
   return (
     <div className="container">
       <nav className="flex navbar">
@@ -13,22 +14,27 @@ function App() {
         </div>
         <ul className="flex ul">
           <li>
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
 
           <li>
-            <a href="#">Delivery</a>
+            <a href="/d">Delivery</a>
           </li>
 
           <li>
-            <a href="#">Reviews</a>
+            <a href="/r">Reviews</a>
           </li>
 
           <li>
-            <a href="#">Contact</a>
+            <a href="/c">Contact</a>
           </li>
         </ul>
+        <label className="switch">
+          <input type="checkbox" className="toggle" onChange={handleChange} />
+          <span className="slider round"></span>
+        </label>
       </nav>
+
       <main className="hero">
         <h1>Delivery natural herbal drinks</h1>
         <p>Perfect snack for hot summer East right and tasty</p>
