@@ -18,18 +18,15 @@ function App() {
 
   const handleChange = (e) => {
     const classes = document.documentElement.classList;
-    const bodyEl = document.querySelector(".background");
 
     if (classes.contains("light-theme")) {
       document.documentElement.classList.remove("light-theme");
       document.documentElement.classList.add("dark-theme");
-      bodyEl.classList.add("body-dark");
       localStorage.setItem("theme", "dark-theme");
       setTheme("dark-theme");
     } else {
       document.documentElement.classList.remove("dark-theme");
       document.documentElement.classList.add("light-theme");
-      bodyEl.classList.remove("body-dark");
       localStorage.setItem("theme", "light-theme");
       setTheme("light-theme");
     }
