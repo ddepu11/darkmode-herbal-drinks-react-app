@@ -3,7 +3,21 @@ import { FaGooglePlay } from "react-icons/fa";
 import { GiFruitBowl, GiScooter, GiHealthNormal } from "react-icons/gi";
 
 function App() {
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const classes = document.documentElement.classList;
+    console.log(classes.contains("light-theme"));
+    const bodyEl = document.querySelector(".background");
+
+    if (classes.contains("light-theme")) {
+      document.documentElement.classList.remove("light-theme");
+      document.documentElement.classList.add("dark-theme");
+      bodyEl.classList.add("body-dark");
+    } else {
+      document.documentElement.classList.remove("dark-theme");
+      document.documentElement.classList.add("light-theme");
+      bodyEl.classList.remove("body-dark");
+    }
+  };
 
   return (
     <div className="container">
