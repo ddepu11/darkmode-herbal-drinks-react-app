@@ -32,10 +32,12 @@ function App() {
     }
   };
 
+  // Side bar functionality
   const handleMenu = () => {
     sideBarRef.current.classList.toggle("show-sidebar");
   };
 
+  // Checkbox functionality
   useEffect(() => {
     document.documentElement.classList.add(theme.trim());
   });
