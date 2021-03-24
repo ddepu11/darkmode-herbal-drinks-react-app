@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/darkmode-herbal-drinks-react-app/static/css/main.57cf1dfb.chunk.css",
-    "main.js": "/darkmode-herbal-drinks-react-app/static/js/main.b0ab47cc.chunk.js",
-    "main.js.map": "/darkmode-herbal-drinks-react-app/static/js/main.b0ab47cc.chunk.js.map",
+    "main.css": "/darkmode-herbal-drinks-react-app/static/css/main.e3ac3e66.chunk.css",
+    "main.js": "/darkmode-herbal-drinks-react-app/static/js/main.527b0a97.chunk.js",
+    "main.js.map": "/darkmode-herbal-drinks-react-app/static/js/main.527b0a97.chunk.js.map",
     "runtime-main.js": "/darkmode-herbal-drinks-react-app/static/js/runtime-main.31f43f6d.js",
     "runtime-main.js.map": "/darkmode-herbal-drinks-react-app/static/js/runtime-main.31f43f6d.js.map",
-    "static/js/2.9cf5db83.chunk.js": "/darkmode-herbal-drinks-react-app/static/js/2.9cf5db83.chunk.js",
-    "static/js/2.9cf5db83.chunk.js.map": "/darkmode-herbal-drinks-react-app/static/js/2.9cf5db83.chunk.js.map",
+    "static/js/2.15c5ac3d.chunk.js": "/darkmode-herbal-drinks-react-app/static/js/2.15c5ac3d.chunk.js",
+    "static/js/2.15c5ac3d.chunk.js.map": "/darkmode-herbal-drinks-react-app/static/js/2.15c5ac3d.chunk.js.map",
     "index.html": "/darkmode-herbal-drinks-react-app/index.html",
-    "static/css/main.57cf1dfb.chunk.css.map": "/darkmode-herbal-drinks-react-app/static/css/main.57cf1dfb.chunk.css.map",
-    "static/js/2.9cf5db83.chunk.js.LICENSE.txt": "/darkmode-herbal-drinks-react-app/static/js/2.9cf5db83.chunk.js.LICENSE.txt",
+    "static/css/main.e3ac3e66.chunk.css.map": "/darkmode-herbal-drinks-react-app/static/css/main.e3ac3e66.chunk.css.map",
+    "static/js/2.15c5ac3d.chunk.js.LICENSE.txt": "/darkmode-herbal-drinks-react-app/static/js/2.15c5ac3d.chunk.js.LICENSE.txt",
     "static/media/App.css": "/darkmode-herbal-drinks-react-app/static/media/1.d2bcb98b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.31f43f6d.js",
-    "static/js/2.9cf5db83.chunk.js",
-    "static/css/main.57cf1dfb.chunk.css",
-    "static/js/main.b0ab47cc.chunk.js"
+    "static/js/2.15c5ac3d.chunk.js",
+    "static/css/main.e3ac3e66.chunk.css",
+    "static/js/main.527b0a97.chunk.js"
   ]
 }
