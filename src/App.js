@@ -1,8 +1,10 @@
 import "./App.css";
 import { FaGooglePlay } from "react-icons/fa";
 import { GiFruitBowl, GiScooter, GiHealthNormal } from "react-icons/gi";
-
+import { AiOutlineClose, AiOutlineBars } from "react-icons/ai";
+import { useRef } from "react";
 function App() {
+  const sideBarRef = useRef();
   const handleChange = (e) => {
     const classes = document.documentElement.classList;
     console.log(classes.contains("light-theme"));
@@ -19,6 +21,10 @@ function App() {
     }
   };
 
+  const handleMenu = () => {
+    sideBarRef.current.classList.toggle("show-sidebar");
+  };
+
   return (
     <div className="container">
       <nav className="flex navbar">
@@ -26,7 +32,7 @@ function App() {
           <span>H</span>
           <span>D</span>
         </div>
-        <ul className="flex ul">
+        <ul className="flex ul" ref={sideBarRef}>
           <li>
             <a href="/">Home</a>
           </li>
@@ -42,11 +48,14 @@ function App() {
           <li>
             <a href="/c">Contact</a>
           </li>
+          <AiOutlineClose className="close" onClick={handleMenu} />
         </ul>
+
         <label className="switch">
           <input type="checkbox" className="toggle" onChange={handleChange} />
           <span className="slider round"></span>
         </label>
+        <AiOutlineBars className="menu-bar" onClick={handleMenu} />
       </nav>
 
       <main className="hero">
