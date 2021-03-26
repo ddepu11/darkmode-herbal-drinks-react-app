@@ -51,15 +51,15 @@ function App() {
           </li>
 
           <li>
-            <a href="/d">Delivery</a>
+            <a href="/">Delivery</a>
           </li>
 
           <li>
-            <a href="/r">Reviews</a>
+            <a href="/">Reviews</a>
           </li>
 
           <li>
-            <a href="/c">Contact</a>
+            <a href="/">Contact</a>
           </li>
           <AiOutlineClose className="close" onClick={handleMenu} />
         </ul>
