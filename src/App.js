@@ -47,19 +47,19 @@ function App() {
         </div>
         <ul className="flex ul" ref={sideBarRef}>
           <li>
-            <a href="/">Home</a>
+            <a href="#">Home</a>
           </li>
 
           <li>
-            <a href="/">Delivery</a>
+            <a href="#">Delivery</a>
           </li>
 
           <li>
-            <a href="/">Reviews</a>
+            <a href="#">Reviews</a>
           </li>
 
           <li>
-            <a href="/">Contact</a>
+            <a href="#">Contact</a>
           </li>
           <AiOutlineClose className="close" onClick={handleMenu} />
         </ul>
